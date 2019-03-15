@@ -12,7 +12,7 @@ import router from './router'
 // import '../mock/mock'
 // 全局状态控制引入
 import store from './store/store'
-//全局加载respurce拦截器
+// 全局加载respurce拦截器
 import './axios'
 
 Vue.config.productionTip = false

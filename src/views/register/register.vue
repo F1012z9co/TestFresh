@@ -27,7 +27,7 @@
 
               <div class="form-group marb8">
                 <label>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</label>
-                <input id="jsPhoneRegPwd" name="password_m" type="password" placeholder="请输入6-20位非中文字符密码">
+                <input id="jsPhoneRegPwd" name="password_m" type="password" placeholder="请输入6-20位非中文字符密码" v-model="password">
               </div>
               <p class="error-text marb8" v-show="error.password">{{error.password}}</p>
               <div class="error btns" id="jsMobileTips"></div>
